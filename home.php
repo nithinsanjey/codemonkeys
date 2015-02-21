@@ -26,7 +26,7 @@ $username=$_SESSION['username'];
             opacity:1;
             pointer-events: auto;
         }
-			#inside
+	#inside
         {
             border-radius:5px;
             margin-top:270px;
@@ -215,7 +215,7 @@ $username=$_SESSION['username'];
     <link rel="stylesheet" type="text/css" href="bootstrap.css" />
     <body>
 		<div><a href="logout.php"><button class="btn btn-danger">Logout</button></a></div>
-    	<div id="googleMap" style="width:500px;height:380px;"></div>
+    	<div id="googleMap" style="margin-left:5%;margin-right:5%;height:380px;"></div>
 		
 		<div id="popup" class="popup">
             <div id='align'>
